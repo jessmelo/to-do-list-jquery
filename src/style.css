@@ -1,0 +1,86 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    color: #842f8a;
+    padding:5px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+#container {
+    background: #fff1f0;
+    width: 500px;
+    margin-top:60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */    
+}
+
+#input {
+    width: 100%;
+    font-size: 17px;
+    padding: 12px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */    
+}
+
+#input:focus{
+    outline: 1px solid orange;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.del {
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background: lightsalmon;
+    width:0px;
+    padding: 13px;
+    margin-right: 20px;
+    width: auto;
+    display: inline-block;
+}
+
+li:hover .del {
+    padding: 13px;
+    margin-right: 20px;
+    width: auto;
+    display: inline-block!important;
+    opacity: 1.0;
+}
+
+#list {
+    margin-top: 30px;
+    padding-inline-start: 10px;
+}
+
+#list li {
+    list-style-type: none;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background: aliceblue;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */    
+}
